@@ -40,13 +40,38 @@ h1{
   margin: 0;
   padding: 0;
   font-weight: bold;
+  height:12px
 }
-.loginbox input {
+.loginbox input[type="submit"] {
   width: 100%;
   margin-bottom: 20px;
 
 }
-.loginbox input[type="text"], input[type="password"]
+.input-box{
+
+  margin: 2px auto;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.input-box input{
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+.eye{
+  position: absolute;
+}
+#hide1{
+  display: none;
+}
+.log{
+  margin-top: 10px
+}
+/*.loginbox input[type="text"]
 {
   border: none;
   border-bottom: 1px solid #fff;
@@ -55,7 +80,7 @@ h1{
   height: 40px;
   color: #fff;
   font-size: 16px;
-}
+}*/
 .loginbox input[type="submit"]
 {border: none;
 outline: none;
