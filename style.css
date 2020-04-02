@@ -6,30 +6,7 @@ body{
   background-position: center;
   font-family: sans-serif;
 }
-.welcome{
-  width:100%;
-}
-.welcome{
-  position: absolute;
-  text-align: center;
-  color: #fff;
-}
-h2{
-  font-size: 30px;
-  font-family: sans-sans-serif;
-  color: #fff;
-}
-@media only screen and (max-width: 768px){
-  .welcome{
-    width: 100%;
 
-  }
-}
-@media only screen and (max-width: 320px){
-  .welcome{
-    display:none;
-  }
-}
 .loginbox{
   width:100%;
 }
