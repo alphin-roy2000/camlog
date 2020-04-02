@@ -6,6 +6,10 @@ body{
   background-position: center;
   font-family: sans-serif;
 }
+.loginbox{
+  width:100%;
+}
+
 
 .loginbox{
   width: 320px;
@@ -19,6 +23,7 @@ body{
   box-sizing: border-box;
   padding: 50px 30px;
   border-radius: 10px;
+
 }
 
 .avatar{
@@ -71,16 +76,7 @@ h1{
 .log{
   margin-top: 10px
 }
-/*.loginbox input[type="text"]
-{
-  border: none;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  outline: none;
-  height: 40px;
-  color: #fff;
-  font-size: 16px;
-}*/
+
 .loginbox input[type="submit"]
 {border: none;
 outline: none;
