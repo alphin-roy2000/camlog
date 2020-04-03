@@ -57,7 +57,7 @@ button{
 }
 @media screen and (max-height:609px){
   .sign-up-form{
-    height: 90%;
+    height: 98%;
   }
 }
 .signup-btn{
