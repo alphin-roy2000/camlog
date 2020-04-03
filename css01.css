@@ -5,6 +5,8 @@ body{
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
+  background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 .sign-up-form{
   width:100%;
@@ -22,7 +24,8 @@ body{
   transform: translate(-50%,-50%);
   box-sizing: border-box;
   text-align: center;
-  border-radius: 10px
+  border-radius: 10px;
+  background-attachment: fixed;
 }
 
 
@@ -57,7 +60,7 @@ button{
 }
 @media screen and (max-height:609px){
   .sign-up-form{
-    height: 98%;
+    height:auto;
   }
 }
 .signup-btn{
