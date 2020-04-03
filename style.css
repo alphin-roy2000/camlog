@@ -7,15 +7,11 @@ body{
   font-family: sans-serif;
 }
 
-.loginbox{
-  width:100%;
-}
 
 .loginbox{
-  width: 320px;
-  height: 420px;
-  background:#b2b2ff;
-  color: #fff;
+  width: 300px;
+  background:#fff;
+  color: #000;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -53,11 +49,10 @@ h1{
 
 }
 .input-box{
-
-  margin: 3px auto;
+  margin: 1px auto;
   width: 100%;
-  border-bottom: 1px solid #fff;
-  padding-top: 10px;
+  border-bottom: 1px solid #000;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 .input-box input{
@@ -65,7 +60,7 @@ h1{
   border: none;
   outline: none;
   background: transparent;
-  color: #fff;
+  color: #000;
 }
 .eye{
   position: absolute;
@@ -77,26 +72,42 @@ h1{
   margin-top: 10px
 }
 
-.loginbox input[type="submit"]
-{border: none;
-outline: none;
-height: 40px;
-background: #fb2525;
-color: #fff;
-font-size: 18px;
-border-radius: 20px;
-}
-.loginbox input[type="submit"]:hover
-{cursor: pointer;
-background: #ffc107;
-color: #000;
-}
 .loginbox a{
   text-decoration: none;
   font-size: 12px;
   line-height: 20px;
-  color: #fff;
+  color: #000;
 
 }
 .loginbox a:hover{
-  color: #ffc107;}
+  color: red;}
+
+  button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline:none;
+    cursor: pointer;
+  }
+
+  .login-btn{
+    background-color: crimson;
+  }.twitter-btn{
+    background-color: #21afde;
+  }
+  a{
+    text-decoration: none;
+  }
+  hr{
+    margin-top: 20px;
+    width: 80%;
+  }
+  .or{
+    background: #fff;
+    width: 30px;
+    margin:  auto 10px;
+  }
