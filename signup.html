@@ -17,10 +17,17 @@
     <p>Enter Username
     <input type="text" name="" placeholder="Username"> </p>
     <p>Enter email-->
-    <input type="email" class="input-box" placeholder="Your Email">
-    <input type="password" class="input-box" placeholder="Password">
-
-    <p><span><input type="checkbox"></span>I agree to the Terms of services</p>
+    <div class="input-box1">
+    <input type="email" placeholder="Your Email">
+    </div>
+    <div class="input-box2">
+    <input type="password"  placeholder="Password" id="myInput"  maxlength="21" minlength="8" required>
+    <span class="eye" onclick="myFunction()">
+     <i id="hide1" class="fa fa-eye"></i>
+     <i id="hide2" class="fa fa-eye-slash"></i>
+    </span>
+    </div>
+    <p><span><input type="checkbox"></span>I agree to the <a href="#">Terms of services<a></p>
     <button type="button" class="signup-btn">Sign Up</button>
     <hr>
     <p class="or">OR</p>
@@ -29,6 +36,20 @@
 
   </form>
  </div>
+ <script>
+ function myFunction(){
+   var x = document.getElementById("myInput");
+   var y = document.getElementById("hide1");
+   var z = document.getElementById("hide2");
+   if(x.type === 'password'){
+     x.type="text";
+     y.style.display="block";
+     z.style.display="none";}
+   else{
+     x.type="password";
+     y.style.display="none";
+     z.style.display="block";}}
+ </script>
 
 </body>
 </html>

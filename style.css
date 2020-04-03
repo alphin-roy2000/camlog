@@ -27,13 +27,13 @@ body{
 
 }
 
-.avatar{
+/*.avatar{
   width: 150px;
   height: 150px;
   position: absolute;
   top: -15%;
   left: calc(50% - 75px);
-}
+}*/
 h1{
   margin:0;
   padding: 0 0 0;
@@ -67,6 +67,7 @@ h1{
 }
 .eye{
   position: absolute;
+  right:40px;
 }
 #hide1{
   display: none;
@@ -77,14 +78,16 @@ h1{
 
 .loginbox a{
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 20px;
   color: #000;
 
 }
+
 .loginbox a:hover{
   color: red;}
-
+  .loginbox button:hover{
+    background-color: #2E8B57	;}
   button{
     color: #fff;
     width: 100%;

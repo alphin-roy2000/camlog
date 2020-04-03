@@ -28,18 +28,44 @@ body{
   background-attachment: fixed;
 }
 
+#hide1{display: none;}
+.eye{
+  position: absolute;
+  right:40px;
+}
 
 .sign-up-form h1{
   color: #1c8abd;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
-.input-box{
+.input-box1{
   border-radius: 20px;
   padding: 10px;
   margin: 10px 0;
-  width: 100%;
+  width: 90%;
   border:1px solid #999;
   outline: none;
+
+}
+.input-box1 input{
+
+ width:100%;
+ border: none;
+ outline: none;
+
+}
+.input-box2{
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+  border:1px solid #999;
+  outline: none;
+
+}
+.input-box2 input{
+ width:100%;
+ border: none;
+ outline: none;
 
 }
 button{
