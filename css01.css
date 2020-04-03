@@ -50,6 +50,16 @@ button{
   outline:none;
   cursor: pointer;
 }
+@media screen and (max-width:346px){
+  .sign-up-form{
+    width: 80%;
+  }
+}
+@media screen and (max-height:609px){
+  .sign-up-form{
+    height: 90%;
+  }
+}
 .signup-btn{
   background-color: #1c8adb;
 }
