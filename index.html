@@ -1,34 +1,56 @@
 <html>
- <head>
-   <title>Welcome to ""</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css" href="css/css02.css">
- </head>
- <body>
-  <div class="pimg1">
-     <div class="btn">
-     <div class="l1">
-     <a class="login" href="login.html">Login</a>
-      </div>
-      <div class="l2">
-     <a class="sign-up" href="signup.html">Register</a>
-     </div>
-   </div>
+<head>
+  <title>Sign Up </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/css01.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="sign-up-form">
+    <h1>Sign Up Now</h1>
+  <form>
+    <!--<p>Enter Name
+    <input type="text" name="" placeholder="First Name">
+    <input type="text" name="" placeholder="Middle Name">
+    <input type="text" name="" placeholder="Last Name">
+  </p>
+    <p>Enter Username
+    <input type="text" name="" placeholder="Username"> </p>
+    <p>Enter email-->
+    <div class="input-box1">
+    <input type="email" placeholder="Your Email">
+    </div>
+    <div class="input-box2">
+    <input type="password"  placeholder="Password" id="myInput"  maxlength="21" minlength="8" required>
+    <span class="eye" onclick="myFunction()">
+     <i id="hide1" class="fa fa-eye"></i>
+     <i id="hide2" class="fa fa-eye-slash"></i>
+    </span>
+    </div>
+    <p><span><input type="checkbox"></span>I agree to the <a href="#">Terms of services<a></p>
+    <button type="button" class="signup-btn">Sign Up</button>
+    <hr>
+    <p class="or">OR</p>
+    <button type="button" class="twitter-btn">Login with Twitter</button>
+    <p>Do your have an account ? <a href="login.html">Sign in</a></p>
+
+  </form>
  </div>
+ 
+ <script>
+ function myFunction(){
+   var x = document.getElementById("myInput");
+   var y = document.getElementById("hide1");
+   var z = document.getElementById("hide2");
+   if(x.type === 'password'){
+     x.type="text";
+     y.style.display="block";
+     z.style.display="none";}
+   else{
+     x.type="password";
+     y.style.display="none";
+     z.style.display="block";}}
+ </script>
 
-   <div class="pimg2">
-   </div>
-
-   <div class="pimg3">
-
-   </div>
-
-   <div class="pimg4">
-   </div>
-   <footer>
-       <p class="footer_text">Created by <a href="https://github.com/alphin-roy2000" class="footer_text">Alphin Roy</a></p>
-   </footer>
-
-
- </body>
+</body>
 </html>
