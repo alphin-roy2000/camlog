@@ -12,7 +12,6 @@ body,html{
 .pimg1,.pimg2,.pimg3,.pimg4{
   position: relative;
   opacity: 0.70;
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,7 +23,8 @@ scroll=normal;
 */
 .pimg1{
   background-image: url(../images/m1.jpg);
-  min-height: 120%;
+  width: auto;
+  height: 100%;
 }
 .pimg2{
   background-image: url(../images/m2.jpg);
@@ -36,13 +36,13 @@ scroll=normal;
 }
 .pimg4{
   background-image: url(../images/m4.jpg);
-  min-height: 400px;
+  min-height: 100%;
 }
 
 
 .btn a{
     color:white;
-    margin-: 10px;
+    margin-left: 10px;
     font-size: 15px;
 }
 .login,.sign-up{
